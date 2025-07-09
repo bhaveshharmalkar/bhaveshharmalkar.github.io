@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-# permalink: /about/
 icon: fa-solid fa-user
+order: 4
 ---
 
 ## 👋 Hello, I'm Bhavesh Harmalkar
