@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 icon: fa-solid fa-user
 order: 4
 ---
@@ -27,9 +27,9 @@ I'm currently building a robust skill set in data analysis, including:
 
 To apply what I've learned and challenge myself further, I've worked on projects such as:
 
-- **Credit Risk Analysis** — Evaluated borrower profiles to predict default risks.
-- **Titanic Data Analysis** — Uncovered survival trends using classic dataset exploration.
-- **Stock Market Analysis** — Visualized and interpreted patterns in stock price movements.
+- **Credit Risk Analysis** - Evaluated borrower profiles to predict default risks.
+- **Titanic Data Analysis** -  Uncovered survival trends using classic dataset exploration.
+- **Stock Market Analysis** - Visualized and interpreted patterns in stock price movements.
 These projects reflect my ability to work with structured data, explore patterns, and deliver insights that answer real-world questions
 
 ---
