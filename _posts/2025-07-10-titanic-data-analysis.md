@@ -1,6 +1,6 @@
 ---
 title: A Data-Driven Exploration of Titanic Survival Factors
-description: Through the lens of data analysis, this project re-examines the Titanic disaster to identify critical determinants of survival. Explore the findings derived from robust Python-based analysis, transforming raw data into actionable insights and compelling visuals.
+description: This project analyzes the Titanic disaster to uncover key survival factors using Python, turning raw data into meaningful insights and visualizations.
 date: 2025-07-10 17:00:00 +0530
 categories: [Project, Data-Analysis]
 tags: [python, pandas, plotly, datascience, dataanalysis, project]
@@ -21,16 +21,29 @@ This post presents my data analysis of the Titanic dataset using Python. The goa
 
 ## Summary of Insights
 
-1. Age and Survival: Younger passengers, particularly children, had a higher survival rate, highlighting a potential priority given during evacuation.
+1. __Age and Survival__: Younger passengers, particularly children, had a higher survival rate, highlighting a potential priority given during evacuation.
 
-2. Gender and Survival: Female passengers were significantly more likely to survive than males, reflecting the historical 'women and children first' rescue policy.
+2. __Gender and Survival__: Female passengers were significantly more likely to survive than males, reflecting the historical 'women and children first' rescue policy.
 
-3. Passenger Class: First-class passengers had notably higher survival rates compared to second and third-class travelers, suggesting that socio-economic status played a major role in access to lifeboats and safety.
+3. __Passenger Class__: First-class passengers had notably higher survival rates compared to second and third-class travelers, suggesting that socio-economic status played a major role in access to lifeboats and safety.
 
-4. Embarkation Port: Passengers who boarded at Cherbourg showed slightly better survival outcomes. This may reflect a higher concentration of first-class passengers from that port.
+4. __Embarkation Port__: Passengers who boarded at Cherbourg showed slightly better survival outcomes. This may reflect a higher concentration of first-class passengers from that port.
 
-5. Family Size: Passengers with small family groups (1–4 members) had better survival chances. Those alone or in large families faced more difficulty during the chaos, likely due to separation or logistical challenges.
+5. __Family Size__: Passengers with small family groups (1–4 members) had better survival chances. Those alone or in large families faced more difficulty during the chaos, likely due to separation or logistical challenges.
 
 ## Visual preview
 
-<iframe src="/assets/files/my_plot.html" width="80%" height="400" frameborder="0"></iframe>
+### Survival Rate by Passenger Class and Gender
+
+This chart offers a glimpse into one survival scenario. View the [full report](/assets/files/Titanic_Data_Analysis.html) for a deeper analysis.
+
+This interactive Plotly chart illustrates the survival rates across different passenger classes and genders. The visualization clearly shows that first-class passengers had a significantly higher chance of survival compared to those in second or third class, highlighting the influence of social and economic status during the disaster.
+
+<iframe src="/assets/files/survival_rate.html" width="100%" height="400" frameborder="1"></iframe>
+
+
+## Conclusion
+
+This Titanic analysis project helped me strengthen my EDA skills and practice real-world data storytelling. It demonstrates not just technical skill but also how to communicate findings clearly to non-technical audiences.
+
+For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Titanic_Data_Analysis.html).
