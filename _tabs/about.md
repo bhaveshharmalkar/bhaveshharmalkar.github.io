@@ -45,10 +45,10 @@ __If you're interested in collaborating or want to explore my work, feel free to
 ---
 <br>
 
-[<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com)
+<!-- [<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com)
 &nbsp;&nbsp;
 [<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="35" alt="GitHub Icon">](https://github.com/bhaveshharmalkar)
 &nbsp;&nbsp;
 [<img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon">](https://www.linkedin.com/in/bhaveshharmalkar/)
 &nbsp;&nbsp;
-[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar)
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar) -->
