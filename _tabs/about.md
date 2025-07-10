@@ -43,49 +43,8 @@ __I'm focused on strengthening my skills on more analytical case studies, and co
 __If you're interested in collaborating or want to explore my work, feel free to connect.__
 
 ---
+<br>
 
-
-<!-- - [Email](mailto:bhaveshharmalkar28@gmail.com)  [GitHub](https://github.com/bhaveshharmalkar)| [LinkedIn](https://linkedin.com/in/bhaveshharmalkar) -->
-
-<!-- <p align="center">
-&nbsp; <a href="https://twitter.com/bhavesharmalkar" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" /></a>  
-&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/bhaveshharmalkar/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" /></a>  
-&nbsp;&nbsp;&nbsp; <a href="mailto:bhaveshharmalkar28@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png"  width="35" /></a>
-&nbsp;&nbsp;&nbsp; <a href="https://medium.com/@bhaveshharmalkar" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png"  width="35" /></a></p> -->
-
-## __Contact__
-
-<!-- <div align="center">
-  <a href="https://twitter.com/bhavesharmalkar" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon" style="pointer-events: auto;"/>
-  </a>
-  <a href="https://www.linkedin.com/in/bhaveshharmalkar/" target="_blank" rel="noopener noreferrer" style="margin-left: 15px;">
-    <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon" style="pointer-events: auto;"/>
-  </a>
-  <a href="mailto:bhaveshharmalkar28@gmail.com" target="_blank" rel="noopener noreferrer" style="margin-left: 15px;">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" width="35" alt="Gmail Icon" style="pointer-events: auto;"/>
-  </a>
-  <a href="https://medium.com/@bhaveshharmalkar" target="_blank" rel="noopener noreferrer" style="margin-left: 15px;">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" width="35" alt="Medium Icon" style="pointer-events: auto;"/>
-  </a>
-</div>
-
-<a href="https://twitter.com/bhavesharmalkar" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon" loading="lazy" />
-</a> -->
-<!-- 
-[![Twitter](https://cdn-icons-png.flaticon.com/512/733/733579.png)](https://twitter.com/bhavesharmalkar) -->
-
-<!-- [<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar)  -->
-
-
-## Contact
-
-<!-- <div align="center">
-[<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com) [<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="35" alt="GitHub Icon">](https://github.com/bhaveshharmalkar)
-  [<img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon">](https://www.linkedin.com/in/bhaveshharmalkar/)
-  [<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar)
-</div> -->
 
 
 [<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com)
@@ -95,3 +54,19 @@ __If you're interested in collaborating or want to explore my work, feel free to
 [<img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon">](https://www.linkedin.com/in/bhaveshharmalkar/)
 &nbsp;&nbsp;
 [<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar)
+
+
+
+### Contact
+
+<div style="text-align: center;">
+
+[<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com)
+&nbsp;&nbsp;
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="35" alt="GitHub Icon">](https://github.com/bhaveshharmalkar)
+&nbsp;&nbsp;
+[<img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon">](https://www.linkedin.com/in/bhaveshharmalkar/)
+&nbsp;&nbsp;
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar)
+
+</div>
