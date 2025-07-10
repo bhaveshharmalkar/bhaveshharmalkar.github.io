@@ -55,7 +55,7 @@ __If you're interested in collaborating or want to explore my work, feel free to
 
 ## __Contact__
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://twitter.com/bhavesharmalkar" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon" style="pointer-events: auto;"/>
   </a>
@@ -72,7 +72,10 @@ __If you're interested in collaborating or want to explore my work, feel free to
 
 <a href="https://twitter.com/bhavesharmalkar" target="_blank" rel="noopener noreferrer">
   <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon" loading="lazy" />
-</a>
+</a> -->
 
 [![Twitter](https://cdn-icons-png.flaticon.com/512/733/733579.png)](https://twitter.com/bhavesharmalkar)
+
+[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar) 
+
 
