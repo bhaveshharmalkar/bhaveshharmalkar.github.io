@@ -38,10 +38,10 @@ Providing a deeper understanding of the customer base, this dashboard highlights
 Created key performance indicators(KPIs) for educational level, job roles, card categories and expenditure types. 
 
 
-![Project Screenshot](/assets/images/Transaction.png)
+![Project Screenshot](/assets/img/Transaction.jpg)
 
 ### Chapter 4: Customer Dashboard
 Utilized data groups to organize and visualize data.
 
 
-![Project Screenshot](/assets/images/Customer.png)
+![Project Screenshot](/assets/img/Customer.jpg)
