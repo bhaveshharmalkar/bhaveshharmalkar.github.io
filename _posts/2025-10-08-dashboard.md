@@ -37,13 +37,11 @@ Providing a deeper understanding of the customer base, this dashboard highlights
 ### Chapter 3: Transaction Dashboard
 Created key performance indicators(KPIs) for educational level, job roles, card categories and expenditure types. 
 
-<iframe src="/assets/img/Transaction.jpg"
-        style="border: 2px solid #444; border-radius: 6px;">
-</iframe>
+
+![Project Screenshot](/assets/images/Transaction.png)
 
 ### Chapter 4: Customer Dashboard
 Utilized data groups to organize and visualize data.
 
-<iframe src="/assets/img/Customer.jpg"
-        style="border: 2px solid #444; border-radius: 6px;">
-</iframe>
+
+![Project Screenshot](/assets/images/Customer.png)
