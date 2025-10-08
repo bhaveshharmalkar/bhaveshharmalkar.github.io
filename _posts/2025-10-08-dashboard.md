@@ -7,13 +7,11 @@ tags: [powerbi, dax, datascience, dataanalysis, project]
 comments: false
 ---
 
-###### Every transaction is a tiny story about behaviour, risk, and opportunity and when you bring thousands of those stories together, patterns emerge. 
+Every transaction is a tiny story about behaviour, risk, and opportunity and when you bring thousands of those stories together, patterns emerge. 
 
-###### The Credit Card Transaction & Customer Dashboard converts granular transaction logs and customer profiles into strategic intelligence spending trends, top categories, customer segmentation, anomaly/fraud signals, and revenue drivers. 
+The Credit Card Transaction & Customer Dashboard converts granular transaction logs and customer profiles into strategic intelligence spending trends, top categories, customer segmentation, anomaly/fraud signals, and revenue drivers. 
 
-###### Built as an interactive Power BI experience, it helps product, finance, and risk teams monitor trends, detect outliers, target offers, and reduce exposure turning raw data into decisions that grow revenue and protect customers.
-
-This Power BI project provides an interactive overview of credit card transactions and customer behavior, highlighting key metrics like revenue trends, spending patterns, and demographics to help identify business insights and improve decision-making through data visualization.
+Built as an interactive Power BI experience, it helps product, finance, and risk teams monitor trends, detect outliers, target offers, and reduce exposure turning raw data into decisions that grow revenue and protect customers.
 
 
 ### Project Objective: 
