@@ -53,3 +53,5 @@ Utilized data groups to organize and visualize data.
         height="500"
         style="border: 2px solid #444; border-radius: 6px;">
 </iframe>
+
+![Project Screenshot](/assets/img/Customer.jpg)
