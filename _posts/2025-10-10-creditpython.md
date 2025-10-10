@@ -25,14 +25,14 @@ This project is an exploratory data analysis (EDA) of a dataset containing infor
 
     - __Bivariate Analysis__: Exploring relationships between different variables and their impact on the loan repayment status (the 'TARGET' variable).
 
-__Conclusion__: Drawing business-oriented conclusions from the analysis to provide actionable insights for credit risk management.
+- __Conclusion__: Drawing business-oriented conclusions from the analysis to provide actionable insights for credit risk management.
 
 
 ### Techniques Used:
 
 - __Data Manipulation and Analysis__:
 
-    - __Pandas__: Used for reading the CSV file (application_data.csv), creating and manipulating DataFrames, and performing summary statistics (.info(), .describe(), .value_counts()).
+    - __Pandas__: Used for reading the CSV file (application_data.csv), creating and manipulating DataFrames, and performing summary statistics (.info(), .describe(),value_counts()).
 
     - __NumPy__: Used for numerical computations.
 
@@ -55,4 +55,4 @@ __Conclusion__: Drawing business-oriented conclusions from the analysis to provi
     - __Outlier Treatment__: Identifying and handling outliers in the data.
 
 
-For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Credit_Risk_Analysis.html)
+For a detailed report with __code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Credit_Risk_Analysis.html)
