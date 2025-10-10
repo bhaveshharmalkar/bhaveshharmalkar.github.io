@@ -225,3 +225,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+htmlproofer:
+  check_external_hash: false
+  ignore_urls:
+    - /assets/files/Credit_Risk_Analysis.html
