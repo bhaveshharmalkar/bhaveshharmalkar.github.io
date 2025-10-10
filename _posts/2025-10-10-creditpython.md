@@ -56,7 +56,3 @@ This project is an exploratory data analysis (EDA) of a dataset containing infor
 
 
 For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](https://github.com/bhaveshharmalkar/Predictive-Analytics-in-Credit-Risk-Management/blob/main/Credit_Risk_Analysis.html)
-
-<div style="border:1px solid #ddd; border-radius:10px; overflow:hidden; margin-top:20px; height:800px;">
-  <iframe src="/assets/files/Credit_Risk_Analysis.html" width="100%" height="100%" frameborder="0"></iframe>
-</div>
