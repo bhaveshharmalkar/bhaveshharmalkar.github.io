@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Credit_Risk_Analysis_1760119286</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Credit_Risk_Analysis_1760119854</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7521,6 +7521,57 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=21e0d762">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<details "="" style="background-color: #2f2f2f; padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+<summary style="font-size: 17px; font-weight: bold; color: #f1f1f1; cursor: pointer;"><strong>Table of Contents</strong></summary>
+<ul style="color: #e0e0e0; line-height: 1.8;">
+<li><a href="#Step-1-:-Import-Libraries" style="color:#81d4fa; font-size: 16px">Step 1: Import Libraries</a></li>
+<li><a href="#Step-2-:-Read-Dataset" style="color:#81d4fa; font-size: 16px">Step 2: Read Dataset</a></li>
+<li>
+<a href="#Step-3-:-Dataset-Overview" style="color:#81d4fa; font-size: 16px">Step 3: Dataset Overview</a>
+<ul style="list-style-type: circle; padding-left: 20px;">
+<li><a href="#Step-3.1-:-Dataset-Basic-Information" style="color:#81d4fa; font-size: 15px">Step 3.1: Dataset Basic Information</a></li>
+<li><a href="#Step-3.2-:-Summary-Statistics-for-Numerical-Variables" style="color:#81d4fa; font-size: 15px">Step 3.2: Summary Statistics for Numerical Variables</a></li>
+<li><a href="#Step-3.3-:-Summary-Statistics-for-Categorical--Variables" style="color:#81d4fa; font-size: 15px">Step 3.3: Summary Statistics for Categorical Variables</a></li>
+</ul>
+</li>
+<li>
+<a href="#Step-4-:-Missing-Values-Analysis" style="color:#81d4fa; font-size: 16px">Step 4: Missing Value Analysis</a>
+<ul style="list-style-type: circle; padding-left: 20px;">
+<li><a href="#Step-4.1:-Indentiy-missing-values" style="color:#81d4fa; font-size: 15px">Step 4.1: Indentiy missing values</a></li>
+<li><a href="#Step-4.2:-Missing-Values-Treatment" style="color:#81d4fa; font-size: 15px">Step 4.2: Missing Values Treatment</a></li>
+</ul>
+</li>
+<li><a href="#Step-5-:-Value-Standardization" style="color:#81d4fa; font-size: 16px">Step 5: Value Standardization</a></li>
+<li>
+<a href="#Step-6-:-Univariate-Analysis" style="color:#81d4fa; font-size: 16px">Step 6: Univariate Analysis</a>
+<ul style="list-style-type: circle; padding-left: 20px;">
+<li><a href="#Step-6.1-:-Univariate-Analysis-of-Numerical-Variables" style="color:#81d4fa; font-size: 15px">Step 6.1 : Univariate Analysis of Numerical Variables</a></li>
+<li><a href="#Step-6.2-:-Univariate-Analysis-of-Categorical-Variables" style="color:#81d4fa; font-size: 15px">Step 6.2 : Univariate Analysis of Categorical Variables</a></li>
+</ul>
+</li>
+<li><a href="#Step-7-:-Correlation" style="color:#81d4fa; font-size: 16px">Step 7: Correlation</a></li>
+<li><a href="#Step-8-:-Outliers-Treatment" style="color:#81d4fa; font-size: 16px">Step 8: Outliers Treatment</a></li>
+<li><a href="#Step-9-:-Merging-Dataset" style="color:#81d4fa; font-size: 16px">Step 9: Merging Dataset</a></li>
+<li>
+<a href="#Step-10-:-Bivariate-Analysis" style="color:#81d4fa; font-size: 16px">Step 10: Bivariate Analysis</a>
+<ul style="list-style-type: circle; padding-left: 20px;">
+<li><a href="#Step-10.1-:-Categorical-columns-vs-TARGET" style="color:#81d4fa; font-size: 15px">Step 10.1 : Categorical columns vs TARGET</a></li>
+<li><a href="#Step-10.2-:-Numerical-columns-vs-TARGET" style="color:#81d4fa; font-size: 15px">Step 10.2 : Numerical columns vs TARGET</a></li>
+</ul>
+</li>
+<li><a href="#-Business-Oriented-Conclusions-" style="color:#81d4fa; font-size: 16px">Step 11: Business Oriented Conclusions</a></li>
+</ul>
+</details>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbacb01c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9435,7 +9486,7 @@ dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'OCCUPATION_TYPE'"><b>Column 'OCCUPATION_TYPE'</b><a class="anchor-link" href="#Column-'OCCUPATION_TYPE'">¶</a></h5>
+<p><b>Column 'OCCUPATION_TYPE'</b></p>
 </div>
 </div>
 </div>
@@ -9494,7 +9545,7 @@ dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'EXT_SOURCE_3'"><b>Column 'EXT_SOURCE_3'</b><a class="anchor-link" href="#Column-'EXT_SOURCE_3'">¶</a></h5>
+<p><b>Column 'EXT_SOURCE_3'</b></p>
 </div>
 </div>
 </div>
@@ -9631,7 +9682,8 @@ Mode: 0.746300213050371
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_WEEK'"><b>Column 'AMT_REQ_CREDIT_BUREAU_WEEK'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_WEEK'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the week before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_WEEK'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the week before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -9720,7 +9772,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_MON'"><b>Column 'AMT_REQ_CREDIT_BUREAU_MON'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_MON'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the last month before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_MON'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the last month before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -9810,7 +9863,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_YEAR'"><b>Column 'AMT_REQ_CREDIT_BUREAU_YEAR'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_YEAR'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the one year before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_YEAR'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the one year before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -9951,7 +10005,8 @@ Mode: 0.0
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_QRT'"><b>Column 'AMT_REQ_CREDIT_BUREAU_QRT'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_QRT'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the last three month before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_QRT'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit in the last three month before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -10078,7 +10133,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_HOUR'"><b>Column 'AMT_REQ_CREDIT_BUREAU_HOUR'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_HOUR'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit one hour before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_HOUR'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit one hour before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -10194,7 +10250,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_REQ_CREDIT_BUREAU_DAY'"><b>Column 'AMT_REQ_CREDIT_BUREAU_DAY'</b><a class="anchor-link" href="#Column-'AMT_REQ_CREDIT_BUREAU_DAY'">¶</a></h5><p><strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit one day before they applied for the loan.</strong></p>
+<p><b>Column 'AMT_REQ_CREDIT_BUREAU_DAY'</b>
+<strong>Description - This feature tells us how many times a bank or other lenders checked the applicant’s credit one day before they applied for the loan.</strong></p>
 </div>
 </div>
 </div>
@@ -10314,7 +10371,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'NAME_TYPE_SUITE'"><b>Column 'NAME_TYPE_SUITE'</b><a class="anchor-link" href="#Column-'NAME_TYPE_SUITE'">¶</a></h5><p><strong>Description -  The column describes who accompanied the client during the loan application</strong></p>
+<p><b>Column 'NAME_TYPE_SUITE'</b>
+<strong>Description -  The column describes who accompanied the client during the loan application</strong></p>
 </div>
 </div>
 </div>
@@ -10545,7 +10603,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Columns-'OBS_30_CNT_SOCIAL_CIRCLE',-'DEF_60_CNT_SOCIAL_CIRCLE',-'DEF_30_CNT_SOCIAL_CIRCLE',-'OBS_60_CNT_SOCIAL_CIRCLE'"><b>Columns 'OBS_30_CNT_SOCIAL_CIRCLE', 'DEF_60_CNT_SOCIAL_CIRCLE', 'DEF_30_CNT_SOCIAL_CIRCLE', 'OBS_60_CNT_SOCIAL_CIRCLE'</b><a class="anchor-link" href="#Columns-'OBS_30_CNT_SOCIAL_CIRCLE',-'DEF_60_CNT_SOCIAL_CIRCLE',-'DEF_30_CNT_SOCIAL_CIRCLE',-'OBS_60_CNT_SOCIAL_CIRCLE'">¶</a></h5>
+<p><b>Columns 'OBS_30_CNT_SOCIAL_CIRCLE', 'DEF_60_CNT_SOCIAL_CIRCLE', 'DEF_30_CNT_SOCIAL_CIRCLE', 'OBS_60_CNT_SOCIAL_CIRCLE'</b></p>
 </div>
 </div>
 </div>
@@ -10655,7 +10713,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'EXT_SOURCE_2"><b>Column 'EXT_SOURCE_2</b><a class="anchor-link" href="#Column-'EXT_SOURCE_2">¶</a></h5>
+<p><b>Column 'EXT_SOURCE_2</b></p>
 </div>
 </div>
 </div>
@@ -10824,7 +10882,8 @@ Mode: 0.2858978721410488
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_GOODS_PRICE'"><b>Column 'AMT_GOODS_PRICE'</b><a class="anchor-link" href="#Column-'AMT_GOODS_PRICE'">¶</a></h5><p><strong>Description - The column represents the price of goods for which the loan was issued.</strong></p>
+<p><b>Column 'AMT_GOODS_PRICE'</b>
+<strong>Description - The column represents the price of goods for which the loan was issued.</strong></p>
 </div>
 </div>
 </div>
@@ -10964,7 +11023,8 @@ Name: count, Length: 1002, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'AMT_ANNUITY'"><b>Column 'AMT_ANNUITY'</b><a class="anchor-link" href="#Column-'AMT_ANNUITY'">¶</a></h5><p><strong>Description - The annual payment amount required to repay the loan</strong></p>
+<p><b>Column 'AMT_ANNUITY'</b>
+<strong>Description - The annual payment amount required to repay the loan</strong></p>
 </div>
 </div>
 </div>
@@ -11066,7 +11126,8 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Column-'CNT_FAM_MEMBERS'"><b>Column 'CNT_FAM_MEMBERS'</b><a class="anchor-link" href="#Column-'CNT_FAM_MEMBERS'">¶</a></h5><p><strong>Description - Number of family members client have</strong></p>
+<p><b>Column 'CNT_FAM_MEMBERS'</b>
+<strong>Description - Number of family members client have</strong></p>
 </div>
 </div>
 </div>
