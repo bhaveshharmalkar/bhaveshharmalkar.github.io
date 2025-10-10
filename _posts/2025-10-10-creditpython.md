@@ -62,3 +62,6 @@ This project is an exploratory data analysis (EDA) of a dataset containing infor
     - __Correlation Analysis__: Examining the correlation between numerical variables.
 
     - __Outlier Treatment__: Identifying and handling outliers in the data.
+
+
+For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Credit_Risk_Analysis.html)
