@@ -7,6 +7,15 @@ tags: [python, pandas, matplotlib, seaborn]
 comments: false
 ---
 
+---
+title: "Predictive Analytics in Credit Risk Management"
+description: "Analyzed customer financial data to identify key predictors of loan default using Python libraries like Pandas, Matplotlib, and Seaborn to uncover high-risk profiles and support informed lending decisions."
+date: 2025-10-10 10:00:00 +0530
+categories: ["Project", "Data Analysis"]
+tags: ["python", "pandas", "matplotlib", "seaborn"]
+comments: false
+---
+
 ### Problem Statement
 
 The primary problem this project addresses is identifying the key factors that influence whether a loan applicant will have payment difficulties. By analyzing customer data, the project aims to uncover patterns and trends that can help a financial institution make more informed lending decisions, thereby reducing the risk of loan defaults
