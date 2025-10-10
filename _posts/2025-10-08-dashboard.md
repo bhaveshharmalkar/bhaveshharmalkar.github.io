@@ -49,16 +49,16 @@ Providing a deeper understanding of the customer base, this dashboard highlights
 - High-salary customers generate the highest revenue, showing income drives card usage.
 
 
-<iframe title="Credit_Card_Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWEyMTdkYjYtZWU3Yi00M2E5LTkxYTctMjM0MTU4NjIyNGVkIiwidCI6IjYwMzg3MzJhLWRmYTUtNDY0OS1iMjUyLTAxMzg4MjFhMmM3MSJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 65%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <iframe title="Credit Card Report" 
-          src="https://app.powerbi.com/view?r=eyJrIjoiMWEyMTdkYjYtZWU3Yi00M2E5LTkxYTctMjM0MTU4NjIyNGVkIiwidCI6IjYwMzg3MzJhLWRmYTUtNDY0OS1iMjUyLTAxMzg4MjFhMmM3MSJ9" 
+          src="https://app.powerbi.com/view?r=eyJrIjoiMWEyMTdkYjYtZWU3Yi00M2E5LTkxYTctMjM0MTU4NjIyNGVkIiwidCI6IjYwMzg3MzJhLWRmYTUtNDY0OS1iMjUyLTAxMzg4MjFhMmM3MSJ9&pageName=acc97530d534154e3515" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
           allowfullscreen="true">
   </iframe>
 </div>
 
+<br>
 [Dataset](https://github.com/bhaveshharmalkar/Credit_Card_Financial_Dashboard)
 
 
