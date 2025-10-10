@@ -1,10 +1,58 @@
 ---
-title: "Credit Card Financial Dashboard"
-description: "Developed an interactive Power BI dashboard analyzing credit card transactions and customer insights to visualize spending patterns and revenue trends."
-date: 2025-10-08 10:00:00 +0530
+title: "Predictive Analytics in Credit Risk Management"
+description: "Analyzed customer financial data to identify key predictors of loan default. Leveraged Python libraries like Pandas, Matplotlib, and Seaborn to uncover high-risk profiles, enabling more informed lending decisions."
+date: 2025-09-12 10:00:00 +0530
 categories: [Project, Data Analysis]
-tags: [powerbi, dax, datascience, dataanalysis, project]
+tags: [python, pandas, numpy, matplotlib, seaborn, dataanalysis]
 comments: false
 ---
 
-### Test
+### Problem Statement
+
+The primary problem this project addresses is identifying the key factors that influence whether a loan applicant will have payment difficulties. By analyzing customer data, the project aims to uncover patterns and trends that can help a financial institution make more informed lending decisions, thereby reducing the risk of loan defaults
+
+### Project Overview
+
+This project is an exploratory data analysis (EDA) of a dataset containing information about loan applicants. The goal is to identify clients who are likely to have payment difficulties. The analysis involves several stages:
+
+- __Data Exploration__: Understanding the structure, data types, and basic statistics of the dataset.
+
+- __Data Cleaning__: Handling missing values and standardizing data for consistency.
+
+- __Analysis__:
+
+    - __Univariate Analysis__: Examining individual variables to understand their distributions.
+
+    - __Bivariate Analysis__: Exploring relationships between different variables and their impact on the loan repayment status (the 'TARGET' variable).
+
+__Conclusion__: Drawing business-oriented conclusions from the analysis to provide actionable insights for credit risk management.
+
+
+### Techniques Used:
+
+- __Data Manipulation and Analysis__:
+
+    - __Pandas__: Used for reading the CSV file (application_data.csv), creating and manipulating DataFrames, and performing summary statistics (.info(), .describe(), .value_counts()).
+
+    - __NumPy__: Used for numerical computations.
+
+- __Data Visualization__:
+
+    - __Matplotlib__: Used as the foundational library for creating plots and charts.
+
+    - __Seaborn__: Used for creating more advanced and visually appealing statistical plots, such as bar plots and histograms.
+
+- __Exploratory Data Analysis (EDA) Techniques__:
+
+    - __Missing Value Analysis__: Identifying and handling missing data.
+
+    - __Univariate Analysis__: Analyzing single variables to understand their characteristics.
+
+    - __Bivariate Analysis__: Investigating the relationship between two variables.
+
+    - __Correlation Analysis__: Examining the correlation between numerical variables.
+
+    - __Outlier Treatment__: Identifying and handling outliers in the data.
+
+
+For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Credit_Risk_Analysis.html).
