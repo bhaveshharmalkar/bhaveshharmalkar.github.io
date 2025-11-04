@@ -28,6 +28,10 @@ Project Involves:
 
 Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
 
-![Data Architecture](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/blob/main/docs/data_architecture.png)
+<iframe src="/assets/img/data_architecture.png"
+        width="100%"
+        height="500"
+        style="border: 2px solid #444; border-radius: 6px;">
+</iframe>
 
 
