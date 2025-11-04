@@ -23,6 +23,7 @@ Project Involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
+---
 
 ### Phase 1: Data Architecture
 
@@ -34,8 +35,6 @@ Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, a
         style="border: 2px solid #444; border-radius: 6px;">
 </iframe>
 
-- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
 
 
