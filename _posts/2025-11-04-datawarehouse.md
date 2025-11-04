@@ -7,11 +7,11 @@ tags: [sql, datascience, dataanalysis]
 comments: false
 ---
 
-### Problem Addressed
+#### Problem Addressed
 
 Companies without a proper data management system often face slow, manual, and error-prone reporting processes, leading to outdated or inconsistent data. A data warehouse solves this by providing a single point of truth for all analyses and reports.
 
-### The Goal
+#### The Goal
 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision making, all while providing clear documentation of the data model.
 
@@ -27,11 +27,19 @@ Project Involves:
 
 Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
 
-<iframe src="/assets/img/data_architecture.png"
+<!-- <iframe src="/assets/img/data_architecture.png"
         width="100%"
         height="500"
         style="border: 2px solid #444; border-radius: 6px;">
-</iframe>
+</iframe> -->
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 65%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <iframe title="Data Architecture" 
+          src="https://github.com/bhaveshharmalkar/sql-data-warehouse-project/blob/main/docs/data_architecture.png" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+          allowfullscreen="true">
+  </iframe>
+</div>
 
 
 
