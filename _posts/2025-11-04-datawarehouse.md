@@ -35,7 +35,7 @@ Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, a
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 65%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <iframe title="Data Architecture" 
-          src="https://github.com/bhaveshharmalkar/sql-data-warehouse-project/blob/main/docs/data_architecture.png" 
+          src="/assets/img/data_architecture.png" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
           allowfullscreen="true">
   </iframe>
