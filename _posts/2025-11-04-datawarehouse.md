@@ -31,7 +31,9 @@ Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, a
      alt="Data Architecture" 
      style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
-- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database. In this layer I create schema for the data and then load csv files into it as raw data. 
+- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis. I create a stored procedure for easy to use of sql query. First we truncate the data then add our data into the table for freshness.
+- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics. In this particular layer I create a fact and dimentions tables. 
+
+Access the require scripts from [here](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/tree/main/scripts).
 
