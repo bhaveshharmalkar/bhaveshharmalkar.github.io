@@ -33,14 +33,25 @@ Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, a
         style="border: 2px solid #444; border-radius: 6px;">
 </iframe> -->
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 65%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+<!-- <div style="position: relative; width: 100%; height: 0; padding-bottom: 65%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <iframe title="Data Architecture" 
           src="/assets/img/data_architecture.png" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
           allowfullscreen="true">
   </iframe>
+</div> -->
+
+<div style="position: relative; width: 100%; padding-bottom: 65%; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="/assets/img/data_architecture.png" alt="Data Architecture"
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border: none;">
 </div>
 
+<img src="/assets/img/data_architecture.png" 
+     alt="Data Architecture" 
+     style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
 
+- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
