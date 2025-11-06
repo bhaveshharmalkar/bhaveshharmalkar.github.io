@@ -50,11 +50,15 @@ Building an automated ETL (Extract, Transform, Load) pipeline to move data effic
 
 Designing a Star Schema data model to structure the Gold Layer for efficient reporting and analytics. This model simplifies querying by separating business processes (facts) from descriptive attributes (dimensions).
 
-- **Fact Table** – `gold.fact_sales`:
+<img src="/assets/img/data_model.png" 
+     alt="Data Model" 
+     style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+
+- **Fact Table** - `gold.fact_sales`:
 Contains measurable, quantitative data about business transactions such as `sales_amount`, `quantity`, and `price`. It also includes foreign keys linking to the product and customer dimension tables.
 
-- **Dimension Table** – `gold.dim_products`:
+- **Dimension Table** - `gold.dim_products`:
 Stores product-related attributes like `product_name`, `category`, `subcategory`, and `product_line`. This enables detailed product-level analysis and filtering in Power BI reports.
 
-- **Dimension Table** – `gold.dim_customers`:
+- **Dimension Table** - `gold.dim_customers`:
 Includes customer-centric attributes such as `first_name`, `last_name`, `gender`, `country`, and `marital_status`, allowing demographic segmentation and customer behavior analysis.
