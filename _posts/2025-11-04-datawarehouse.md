@@ -1,5 +1,5 @@
 ---
-title: "Data Warehouse and Analytics Project"
+title: "A complete SQL based Data Warehouse pipeline from ingestion to insights"
 description: "Comprehensive data warehousing and analytics project, from building a data warehouse to generating actionable insights"
 date: 2025-11-04 10:00:00 +0530
 categories: [Data-Engineering]
@@ -7,21 +7,11 @@ tags: [sql, datascience, dataanalysis]
 comments: false
 ---
 
-#### Problem Addressed
+### Introduction
 
-Companies without a proper data management system often face slow, manual, and error-prone reporting processes, leading to outdated or inconsistent data. A data warehouse solves this by providing a single point of truth for all analyses and reports.
+In this project, I built a SQL-based Data Warehouse following the Medallion Architecture (Bronze-Silver-Gold) to design a scalable, analytics-ready data solution. The goal was to transform raw CSV datasets into clean, structured, and business-focused insights using SQL Server.
 
-#### The Goal
-
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision making, all while providing clear documentation of the data model.
-
-### Project Overview
-
-Project Involves:
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+The project covers the end-to-end data engineering workflow from ingestion and transformation to data modeling and analytics showcasing how to build a modern data warehouse using only SQL-based processes. Through this implementation, I gained hands-on experience with ETL pipelines, star schema design, and SQL-driven reporting, creating a foundation that can easily integrate with tools like Power BI for advanced visualization.
 
 ### Phase 1: Data Architecture
 
