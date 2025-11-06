@@ -92,4 +92,4 @@ This project was a valuable learning experience in data engineering and analytic
 
 I've shared the complete code, scripts, and documentation publicly so others can explore, modify, or extend the workflow for their own learning.
 
-Explore the full project on GitHub: [SQL Data Warehouse Project](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/).
+Explore the full project from [here](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/).
