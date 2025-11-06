@@ -37,3 +37,24 @@ Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, a
 
 Access the require scripts from [here](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/tree/main/scripts).
 
+
+### Phase 2: ETL Pipeline
+
+Building an automated ETL (Extract, Transform, Load) pipeline to move data efficiently through the Medallion layers from raw ingestion to analytics-ready datasets.
+
+- **Extract**: Data is extracted from multiple CSV sources stored locally and ingested into the Bronze Layer using SQL Server scripts. These scripts define the schema and automate the data import process to ensure consistency across different datasets.
+- **Transform**: In the Silver Layer, transformation logic is applied to clean and standardize the data. This includes handling missing values, data type conversions, and creating relationships between tables. I used stored procedures to automate truncation and reloading of tables, ensuring fresh and accurate data for each run.
+- **Load**: Finally, in the Gold Layer, the transformed data is loaded into fact and dimension tables following the Star Schema model. These tables are optimized for analytical queries and Power BI dashboards, enabling faster insights and efficient reporting.
+
+### Phase 3: Data Modeling
+
+Designing a Star Schema data model to structure the Gold Layer for efficient reporting and analytics. This model simplifies querying by separating business processes (facts) from descriptive attributes (dimensions).
+
+- **Fact Table** – `gold.fact_sales`:
+Contains measurable, quantitative data about business transactions such as `sales_amount`, `quantity`, and `price`. It also includes foreign keys linking to the product and customer dimension tables.
+
+- **Dimension Table** – `gold.dim_products`:
+Stores product-related attributes like `product_name`, `category`, `subcategory`, and `product_line`. This enables detailed product-level analysis and filtering in Power BI reports.
+
+- **Dimension Table** – `gold.dim_customers`:
+Includes customer-centric attributes such as `first_name`, `last_name`, `gender`, `country`, and `marital_status`, allowing demographic segmentation and customer behavior analysis.
