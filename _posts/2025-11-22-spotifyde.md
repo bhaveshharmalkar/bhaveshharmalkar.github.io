@@ -1,6 +1,6 @@
 ---
 title: "Spotify Data Pipeline"
-description: "Built a scalable azure data platform with dynamic, metadata driven ingestion, incremental CDC pipelines, and databricks silver gold transformations using autoloader, unity catalog, and delta live tables"
+description: "Built a scalable azure data platform with dynamic, metadata driven ingestion, incremental cdc pipelines, and databricks silver gold transformations using autoloader, unity catalog, and delta live tables"
 date: 2025-11-22 10:00:00 +0530
 categories: [Data-Engineering]
 tags: [sql, datafactory, databricks, pyspark, dlt]
