@@ -118,3 +118,5 @@ Building pipelines is easy. Building pipelines that maintain themselves is where
 
 
 Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
+Check my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)
