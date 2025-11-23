@@ -18,6 +18,8 @@ __Architecture Diagram__
      alt="Data Architecture" 
      style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
+__Tech Stack__: Azure Data Factory, SQL, ADLS Gen2, Databricks (PySpark, DLT, Unity Catalog), Logic Apps, GitHub.
+
 ### __Phase 1: The Ingestion Engine (Azure Data Factory)__
 
 I needed to ingest data from an __Azure SQL Database__ (simulating a transactional system) to the Data Lake (Bronze Layer). 
@@ -76,3 +78,40 @@ For the Gold layer, I implemented __Delta Live Tables__. This allowed me to defi
 ```
 
 If a record breaks the rules, it is dropped immediately, ensuring the analysts only see clean data.
+
+
+### __Phase 3: DevOps & Monitoring__
+
+A pipeline isn't "production-ready" until it's automated and monitored.
+
+##### __1. Databricks Asset Bundles (DAB)__
+
+I moved away from manual notebook deployment. I initialized a project using `databricks bundle init`.
+
+- Defined infrastructure in `databricks.yml`.
+- Deployed separate environments (Dev) via CLI:
+
+```
+databricks bundle deploy --target dev
+```
+
+This brings CI/CD practices directly into the data workflow.
+
+##### __2. Alerting with Logic Apps__
+
+If the ADF pipeline fails, silence is dangerous.
+
+- I created an __Azure Logic App__ triggered by an HTTP WebHook.
+- On pipeline failure, ADF sends a JSON payload (Pipeline Name, Run ID) to the Logic App.
+- The Logic App automatically formats and sends a generic email alert to the support team.
+
+
+### Conclusion
+
+This project started as a simple ETL task but evolved into a masterclass on Azure Data Engineering patterns.
+
+- We decoupled configuration from code (Metadata-driven).
+- We secured data access (Unity Catalog).
+- We automated deployment (DABs).
+
+Building pipelines is easy. Building pipelines that maintain themselves is where the real engineering happens.
