@@ -6,49 +6,18 @@ order: 4
 ---
 
 
-__Hello, I'm Bhavesh Harmalkar. I'm a 24-year-old data enthusiast with a strong academic foundation and a growing portfolio in data analytics. I completed both my Bachelor's and Master's degrees in Information Technology from D.G.Ruparel College between 2019 and 2024.__
+__Hi, I'm Bhavesh Harmalkar someone who genuinely enjoys turning raw, messy data into something meaningful and easy to understand. My journey started with simple curiosity: "How does data actually help businesses make decisions?". That one question pulled me into the world of analytics, cloud platforms, and building data systems that actually solve real problems.__
 
-__During my academic journey, I found a deep interest in understanding data not just through theory, but by working with real-world datasets, asking the right questions, and transforming numbers into insights that matter. That curiosity led me to pursue data analysis with hands-on projects and practical learning.__
+__Over time, I moved from cleaning spreadsheets to designing complete data pipelines, building dashboards people rely on, and creating smoother workflows that save time and effort. I love working on projects end-to-end understanding the problem, shaping the data, and building something that feels clean, organized, and reliable.__
 
----
+__I'm currently gaining hands-on industry experience as a Data Analyst Intern, where I get to explore numbers, spot trends, and turn insights into decisions. But I'm also growing into the Data Engineering space because I enjoy building the systems behind the scenes that make everything run.__
 
-## __Skills__
+__Outside work, I'm the person who gets excited about improving things whether it's a pipeline, a dashboard, or even my morning routine. I like learning, experimenting, and sharing whatever I build.__
 
-I'm currently building a robust skill set in data analysis, including:
-
-- **Programming & Libraries**: *Python, Pandas, NumPy*
-- **Visualization Tools**: *Matplotlib, Seaborn, Plotly*
-- **Data Techniques**: *Data Cleaning, Data Visualization, Exploratory Data Analysis (EDA)*
-- **Excel**
-
----
-
-## __Projects__
-
-To apply what I've learned and challenge myself further, I've worked on projects such as:
-
-- **Credit Risk Analysis** - *Evaluated borrower profiles to predict default risks.*
-- **Titanic Data Analysis** -  *Uncovered survival trends using classic dataset exploration.*
-- **Stock Market Analysis** - *Visualized and interpreted patterns in stock price movements.*
-
-**These projects reflect my ability to work with structured data, explore patterns, and deliver insights that answer real-world questions.**
-
----
-
-## __Looking Ahead__
-
-__I'm focused on strengthening my skills on more analytical case studies, and contributing to open projects where I can solve problems using data. I believe in continuous learning and the power of thoughtful storytelling through numbers.__
-
+__If you're someone who loves data, tech, or just enjoys good conversations we'll get along well.__
 
 __If you're interested in collaborating or want to explore my work, feel free to connect.__
 
 ---
-<br>
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view)
 
-<!-- [<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="35" alt="Gmail Icon">](mailto:bhaveshharmalkar28@gmail.com)
-&nbsp;&nbsp;
-[<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="35" alt="GitHub Icon">](https://github.com/bhaveshharmalkar)
-&nbsp;&nbsp;
-[<img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="35" alt="LinkedIn Icon">](https://www.linkedin.com/in/bhaveshharmalkar/)
-&nbsp;&nbsp;
-[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="35" alt="Twitter Icon">](https://twitter.com/bhavesharmalkar) -->
