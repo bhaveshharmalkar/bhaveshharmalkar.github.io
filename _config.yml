@@ -16,7 +16,7 @@ timezone: Asia/Calcutta
 
 title: Bhavesh Harmalkar # the main title
 
-tagline: Data Analyst - Turning Data into Insight # it will display as the subtitle
+tagline: Azure Data Engineer # it will display as the subtitle
 
 description: Portfolio Website for my Projects.
 
@@ -37,10 +37,10 @@ social:
   email: bhaveshharmalkar28@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/bhavesharmalkar # change to your Twitter homepage
+    # - https://twitter.com/bhavesharmalkar # change to your Twitter homepage
     - https://github.com/bhaveshharmalkar # change to your GitHub homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.threads.com/@bhaveshharmalkar
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
