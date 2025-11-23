@@ -53,3 +53,26 @@ To update the watermark for the next run, I calculated the `MAX(timestamp)` from
 
 - __Optimization__: I added an __If Condition__ `(@greater(dataRead, 0))`. The watermark only updates if new data was actually read.
 - __Cleanup__: If zero rows are read, a __Delete Activity__ removes the empty Parquet files to keep the lake clean.
+
+
+### __Phase 2: Governance & Compute (Databricks Unity Catalog)__
+
+Once the data hit the Data Lake (Bronze), I used __Azure Databricks__ for transformation. Instead of legacy mounting, I utilized __Unity Catalog__ for modern governance.
+
+##### __1. Secure Access (No Keys)__
+I set up an __Access Connector for Databricks__ with a __Managed Identity__. This allowed Databricks to talk to __ADLS Gen2__ without hardcoding access keys or SAS tokens in notebooks.
+
+##### __2. The Medallion Architecture__
+
+- __Bronze__: Raw Parquet files ingested by ADF.
+- __Silver (Cleansing)__: I used __Autoloader__ to ingest raw files. I built a reusable Python class `(transformations.py)` to handle routine tasks like dropping `_rescued_data` and deduping records.
+- __Gold (Aggregation)__: Business-level aggregates.
+
+##### __3. Delta Live Tables (DLT) & Quality__
+For the Gold layer, I implemented __Delta Live Tables__. This allowed me to define __Data Quality Expectations__
+
+```
+@dlt.expect_all_or_drop({"valid_id": "id IS NOT NULL"})
+```
+
+If a record breaks the rules, it is dropped immediately, ensuring the analysts only see clean data.
