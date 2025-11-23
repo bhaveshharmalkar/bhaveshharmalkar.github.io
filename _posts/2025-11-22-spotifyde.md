@@ -116,6 +116,8 @@ This project started as a simple ETL task but evolved into a masterclass on Azur
 
 Building pipelines is easy. Building pipelines that maintain themselves is where the real engineering happens.
 
+[GitHub Repo](https://github.com/bhaveshharmalkar/Spotify-Data-Pipeline)
+
 ---
 Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
 
