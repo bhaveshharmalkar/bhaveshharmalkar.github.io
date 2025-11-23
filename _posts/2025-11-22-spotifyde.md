@@ -11,4 +11,9 @@ In the world of Data Engineering, writing a pipeline that moves data from Point 
 
 For my latest project, I built an end-to-end data solution using __Azure Data Factory (ADF)__, __Azure Data Lake Gen2__, and __Databricks (Unity Catalog)__. The goal wasn't just to move Spotify data; it was to build a framework that is __resilient__, __automated__, and __metadata-driven.__
 
-Here is the architectural breakdown of how I built a scalable, incremental loading system.
+
+__Architecture Diagram__
+
+<img src="/assets/img/Architecture_Spotify.png" 
+     alt="Data Architecture" 
+     style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
