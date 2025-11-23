@@ -93,3 +93,9 @@ This project was a valuable learning experience in data engineering and analytic
 I've shared the complete code, scripts, and documentation publicly so others can explore, modify, or extend the workflow for their own learning.
 
 Explore the full project from [here](https://github.com/bhaveshharmalkar/sql-data-warehouse-project/).
+
+
+---
+Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)

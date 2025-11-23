@@ -61,3 +61,7 @@ Providing a deeper understanding of the customer base, this dashboard highlights
 [Dataset](https://github.com/bhaveshharmalkar/Credit_Card_Financial_Dashboard)
 
 
+---
+Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)

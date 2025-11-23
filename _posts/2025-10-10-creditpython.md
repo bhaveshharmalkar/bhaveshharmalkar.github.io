@@ -56,3 +56,9 @@ This project is an exploratory data analysis (EDA) of a dataset containing infor
 
 
 For a detailed report with **code, graphs, and step-by-step explanation** view the interactive HTML version [here](/assets/files/Credit_Risk_Analysis.html)
+
+
+---
+Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)

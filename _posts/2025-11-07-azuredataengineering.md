@@ -89,3 +89,9 @@ From raw ingestion to refined analytics, I experienced firsthand how each Azure 
 It's a project that truly demonstrates how modern data architecture turns scattered information into actionable insights the foundation of every data-driven organization.
 
 Access the full resources from [here](https://github.com/bhaveshharmalkar/End-to-End_Azure_Data_Engineering_Pipeline).
+
+
+---
+Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)
