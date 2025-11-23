@@ -17,5 +17,9 @@ Outside work, I'm the person who gets excited about improving things whether it'
 If you're someone who loves data, tech, or just enjoys good conversations we'll get along well.
 
 ---
+Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
+
 Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view)
+
+
 

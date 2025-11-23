@@ -116,7 +116,7 @@ This project started as a simple ETL task but evolved into a masterclass on Azur
 
 Building pipelines is easy. Building pipelines that maintain themselves is where the real engineering happens.
 
-
+---
 Connect me on [Threads](https://www.threads.com/@bhaveshharmalkar)  [Linkedin](https://www.linkedin.com/in/bhaveshharmalkar/)
 
-Check my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)
+Check out my [resume](https://drive.google.com/file/d/1KIkc3P9gRasWa6_4i1l9SKjY4RQXaoeP/view?usp=drive_link)
