@@ -24,7 +24,7 @@ I needed to ingest data from an __Azure SQL Database__ (simulating a transaction
 The Wrong Way: Creating 20 different pipelines for 20 different tables. 
 The "Smart" Way: A single, Metadata-Driven Pipeline.
 
-##### 1. __The Metadata-Driven Approach__
+##### __1. The Metadata-Driven Approach__
 
 Instead of hardcoding table names, I hosted a `loop_input.json` configuration file on GitHub.
 
@@ -34,7 +34,7 @@ Instead of hardcoding table names, I hosted a `loop_input.json` configuration fi
 This means if I need to add a new table, I don't touch the ADF pipeline code. I simply update the JSON file on GitHub.
 
 
-##### 2. __Incremental Loading (The "High Watermark" Strategy)__
+##### __2. Incremental Loading (The "High Watermark" Strategy)__
 
 Full loads are expensive. I implemented a robust __CDC (Change Data Capture)__ logic using a watermark approach:
 
@@ -47,7 +47,7 @@ WHERE @{item().cdc_col} > '@{activity('last_cdc').output.value[0].cdc}'
 ```
 - __Handling Backfill__: I added logic to check if a `from_date` parameter exists. If it does, the system ignores the watermark and performs a historical backfill.
 
-##### 3. __Self-Healing State Management__
+##### __3. Self-Healing State Management__
 
 To update the watermark for the next run, I calculated the `MAX(timestamp)` from the source data.
 
