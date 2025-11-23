@@ -25,11 +25,9 @@ The Wrong Way: Creating 20 different pipelines for 20 different tables.
 The "Smart" Way: A single, Metadata-Driven Pipeline.
 
 1. __The Metadata-Driven Approach__
-
 Instead of hardcoding table names, I hosted a `loop_input.json` configuration file on GitHub.
 
 - __Lookup Activity__: ADF fetches this JSON via an HTTP Linked Service.
-
 - __ForEach Loop__: The pipeline iterates through every table defined in the config.
 
 This means if I need to add a new table, I don't touch the ADF pipeline code. I simply update the JSON file on GitHub.
