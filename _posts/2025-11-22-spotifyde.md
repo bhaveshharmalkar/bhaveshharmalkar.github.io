@@ -25,9 +25,23 @@ The Wrong Way: Creating 20 different pipelines for 20 different tables.
 The "Smart" Way: A single, Metadata-Driven Pipeline.
 
 1. __The Metadata-Driven Approach__
+
 Instead of hardcoding table names, I hosted a `loop_input.json` configuration file on GitHub.
 
 - __Lookup Activity__: ADF fetches this JSON via an HTTP Linked Service.
 - __ForEach Loop__: The pipeline iterates through every table defined in the config.
 
 This means if I need to add a new table, I don't touch the ADF pipeline code. I simply update the JSON file on GitHub.
+
+
+2. __Incremental Loading (The "High Watermark" Strategy)__
+Full loads are expensive. I implemented a robust __CDC (Change Data Capture)__ logic using a watermark approach:
+
+- __Lookup Last CDC__: The pipeline reads a `cdc.json` file from the Data Lake to find the timestamp of the last successful run.
+- __Dynamic Querying__: I injected dynamic SQL into the Copy Activity:
+
+```
+SELECT * FROM @{item().schema}.@{item().table} 
+WHERE @{item().cdc_col} > '@{activity('last_cdc').output.value[0].cdc}'
+```
+- __Handling Backfill__: I added logic to check if a `from_date` parameter exists. If it does, the system ignores the watermark and performs a historical backfill.
